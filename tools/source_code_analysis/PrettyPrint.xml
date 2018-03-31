@@ -1,0 +1,17 @@
+<tool id="prettyPrint_java" name="Pretty Print Java Source" version="0.1.0">
+  <description>for each sequence in a file</description>
+  <command interpreter="txl -q">PrettyPrint.txl $input > $output</command>
+  <inputs>
+    <param format="txt" name="input" type="data" label="Source file"/>
+  </inputs>
+  <outputs>
+    <data format="txt" name="output" />
+  </outputs>
+
+
+
+  <help>
+This tool computes GC content from a FASTA file.
+  </help>
+
+</tool>
