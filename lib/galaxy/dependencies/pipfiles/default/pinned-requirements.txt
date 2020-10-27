@@ -21,7 +21,7 @@ cliff==2.11.0
 cloudbridge==0.3.3
 cmd2==0.8.2
 contextlib2==0.5.5
-cryptography==2.2.1
+cryptography==3.2
 debtcollector==1.19.0
 decorator==4.2.1
 deprecation==2.0
